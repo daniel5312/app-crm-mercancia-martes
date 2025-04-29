@@ -72,10 +72,10 @@ function Login() {
         </div>
         <div className="form_back">
           <div className="form_details">SignUp</div>
-          <input type="text" className="input" placeholder="Firstname" />
-          <input type="text" className="input" placeholder="Username" />
-          <input type="text" className="input" placeholder="Password" />
-          <input type="text" className="input" placeholder="Confirm Password" />
+          <input onChange={(e) => setPassword(e.target.value)} type="text" className="input" placeholder="Firstname" />
+          <input onChange={(e) => setPassword(e.target.value)} type="text" className="input" placeholder="Username" />
+          <input onChange={(e) => setPassword(e.target.value)} type="text" className="input" placeholder="Password" />
+          <input onChange={(e) => setPassword(e.target.value)} type="text" className="input" placeholder="Confirm Password" />
           <button className="btn">Signup</button>
           <span className="switch">
             Already have an account?
